@@ -44,7 +44,7 @@ sidebar:
 
     interests:
       - item: FOSS
-        link:
+        link: "https://en.wikipedia.org/wiki/Free_and_open-source_software"
 
       - item: Neuroscience
         link:
