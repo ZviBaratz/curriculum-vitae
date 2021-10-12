@@ -54,7 +54,8 @@ career-profile:
     title: Career Profile
     summary: |
         I am a computational neuroscience researcher with a passion for
-        open-source software, Python programming, and open science. 
+        open-source software, Python programming, and open science.
+        
 education:
     - degree: PhD in Neuroscience
       university: Tel Aviv University
@@ -75,6 +76,16 @@ education:
         two years completed an M.Sc. thesis studying cortical layers
         distribution in the general population using inversion-recovery MRI
         and graduated with honors (final grade of 94.75). 
+
+    - degree: High School Diploma
+      university: Ironi Daled High School
+      time: 2003 - 2008
+      details: |
+        Majored in physics and biology.
+        Graduated with honors (matriculations average of over 95).
+        Took part in school delegations to Spain, Singapore, Poland and
+        Germany.
+        
 experiences:
     title: Job Experience
     items: 
@@ -115,6 +126,7 @@ experiences:
             approximately 3 more months of advanced training within the unit.
             Received the unit’s award for excellence on Israel’s Independence
             Day 2011.
+            
 projects:
     title: Projects
     intro: >
@@ -130,6 +142,7 @@ projects:
       - title: Open DICOM
         link: "https://www.github.com/open-dicom"
         tagline: "Collaborating to improve DICOM management tools across all languages and platforms."
+
 publications:
     title: Publications
     # intro: |
