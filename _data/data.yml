@@ -90,19 +90,31 @@ experiences:
           details: |
             Introduction to neuroscience-oriented machine learning concepts
             and tools.    
-        - role: Neuroanatomy Laboratory Teaching Assistant
-          time: 2015 - 2020
-          company: Sagol School for Neuroscience, Tel Aviv University
-          details: |
-            Neuroanatomy laboratory guide, teaching undergraduate and graduate
-            students.
         - role: Research Assistant
           time: 2018 - 2018
           company: "The lab of Dr. Pablo Blinder, Tel Aviv University"
           details: |
             Improved Flow Image Correlation Spectroscopy (FLICS) analysis
             implementation and built a simple app for running the analysis
-            and viewing the results. 
+            and viewing the results.
+        - role: Neuroanatomy Laboratory Teaching Assistant
+          time: 2015 - 2020
+          company: Sagol School for Neuroscience, Tel Aviv University
+          details: |
+            Neuroanatomy laboratory guide, teaching undergraduate and graduate
+            students.
+        - role: Reconnaissance Satellite Operator
+          time: 2019 - 2013
+          company: Israeli Defense Forces
+          details: |
+            Operated Israeli military electro-optical satellites throughout a
+            four-year service in the intelligence corps, also took part in a
+            large number of projects and led both a research team and a
+            technical team working concomitantly with Israeli Aerospace
+            Industries (IAI). Completed a 5-month qualification course and
+            approximately 3 more months of advanced training within the unit.
+            Received the unit’s award for excellence on Israel’s Independence
+            Day 2011.
 projects:
     title: Projects
     intro: >
