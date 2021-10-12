@@ -104,11 +104,11 @@ projects:
       more information).
     assignments:
       - title: The Labbing Project
-        link: "www.github.com/TheLabbingProject"
+        link: "#www.github.com/TheLabbingProject"
         tagline: "Improving lab operations and research management."
 
       - title: Open DICOM
-        link: "www.github.com/open-dicom"
+        link: "#www.github.com/open-dicom"
         tagline: "Collaborating to improve DICOM management tools across all languages and platforms."
 publications:
     title: Publications
