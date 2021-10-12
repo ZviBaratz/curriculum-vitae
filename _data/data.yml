@@ -2,6 +2,8 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+site:
+    title: Zvi Baratz
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
@@ -12,7 +14,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: z.baratz@gmail.com
+    email: zvibaratz@mail.tau.ac.il
     phone: 972 544 237759
     # website: blog.webjeda.com #do not add http://
     linkedin: baratzz
@@ -90,7 +92,7 @@ experiences:
         and tools.
     - role: Research Assistant
       time: 2018 - 2018
-      company: "Dr. Pablo Blinder's lab, Tel Aviv University"
+      company: "The lab of Dr. Pablo Blinder, Tel Aviv University"
       details: |
         Improved Flow Image Correlation Spectroscopy (FLICS) analysis
         implementation and built a simple app for running the analysis
@@ -98,8 +100,8 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Other than the listed projects, which were created as part of my
-      research efforts, I have made a number of contributions to a
+      Other than the projects listed below, which were created as part of
+      my research efforts, I have made a number of contributions to a
       variety of open-source projects (please see my GitHub profile for
       more information).
     assignments:
