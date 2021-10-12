@@ -90,7 +90,7 @@ experiences:
         and tools.
     - role: Research Assistant
       time: 2018 - 2018
-      company: Dr. Pablo Blinder's lab, Tel Aviv University
+      company: "Dr. Pablo Blinder's lab, Tel Aviv University"
       details: |
         Improved Flow Image Correlation Spectroscopy (FLICS) analysis
         implementation and built a simple app for running the analysis
