@@ -103,11 +103,11 @@ projects:
       variety of open-source projects (please see my GitHub profile for
       more information).
     assignments:
-      - title: The Labbing Project
+      - title: "The Labbing Project"
         link: "github.com/TheLabbingProject"
         tagline: "Improving lab operations and research management."
 
-      - title: Open DICOM
+      - title: "Open DICOM"
         link: "github.com/open-dicom"
         tagline: "Collaborating to improve DICOM management tools across all languages and platforms.
 publications:
