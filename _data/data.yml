@@ -127,10 +127,16 @@ skills:
         level: 95%
         
       - name: Django
-        level: 90%
+        level: 80%
+
+      - name: Git
+        level: 80%
 
       - name: Linux Administration
         level: 60%
+
+      - name: Vue.js
+        level: 45%
 
       - name: Javascript, HTML5 & CSS
         level: 40%
