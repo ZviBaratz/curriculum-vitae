@@ -123,7 +123,7 @@ publications:
     # intro: |
     papers:
       - title: "A Framework for Cortical Layer Composition Analysis using Low Resolution T1 MRI Images"
-        link: "www.biorxiv.org/content/early/2018/08/13/390112.full.pdf"
+        link: "https://www.biorxiv.org/content/early/2018/08/13/390112.full.pdf"
         authors: Shamir, I., Tomer, O., Baratz, Z., Tsarfaty, G., Faraggi, M., Horowitz, A., & Assaf, Y.
         conference: bioRxiv, 2018
 
