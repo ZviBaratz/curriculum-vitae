@@ -78,25 +78,33 @@ education:
         distribution in the general population using inversion-recovery MRI
         and graduated with honors (final grade of 94.75). 
 experiences:
-    - role: Neuroanatomy Laboratory Teaching Assistant
-      time: 2015 - 2020
-      company: Sagol School for Neuroscience, Tel Aviv University
-      details: |
-        Neuroanatomy laboratory guide, teaching undergraduate and graduate
-        students.
-    - role: Machine Learning for Neuroscience Teaching Assistant
-      time: 2019 - Present
-      company: Sagol School for Neuroscience, Tel Aviv University
-      details: |
-        Introduction to neuroscience-oriented machine learning concepts
-        and tools.
-    - role: Research Assistant
-      time: 2018 - 2018
-      company: "The lab of Dr. Pablo Blinder, Tel Aviv University"
-      details: |
-        Improved Flow Image Correlation Spectroscopy (FLICS) analysis
-        implementation and built a simple app for running the analysis
-        and viewing the results. 
+    title: Job Experience
+    items: 
+        - role: Python for Neuroscience Graduate Teaching Assistant
+          time: 2019 - Present
+          company: Sagol School for Neuroscience, Tel Aviv University
+          details: |
+            Introduction to the Python programming language for
+            neuroscience students.
+        - role: Machine Learning for Neuroscience Teaching Assistant
+          time: 2019 - Present
+          company: Sagol School for Neuroscience, Tel Aviv University
+          details: |
+            Introduction to neuroscience-oriented machine learning concepts
+            and tools.    
+        - role: Neuroanatomy Laboratory Teaching Assistant
+          time: 2015 - 2020
+          company: Sagol School for Neuroscience, Tel Aviv University
+          details: |
+            Neuroanatomy laboratory guide, teaching undergraduate and graduate
+            students.
+        - role: Research Assistant
+          time: 2018 - 2018
+          company: "The lab of Dr. Pablo Blinder, Tel Aviv University"
+          details: |
+            Improved Flow Image Correlation Spectroscopy (FLICS) analysis
+            implementation and built a simple app for running the analysis
+            and viewing the results. 
 projects:
     title: Projects
     intro: >
