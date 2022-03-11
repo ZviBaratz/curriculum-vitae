@@ -12,22 +12,12 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-<<<<<<< HEAD
     email: zvibaratz@mail.tau.ac.il
     phone: 972 544 237759
     # website: blog.webjeda.com #do not add http://
     linkedin: baratzz
     # xing: alandoe
     github: ZviBaratz
-=======
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
->>>>>>> b515de8368ac1846ce5eee91113c5ecf3331c58d
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -160,11 +150,11 @@ publications:
       - title: "A Framework for Cortical Layer Composition Analysis using Low Resolution T1 MRI Images"
         link: "https://www.biorxiv.org/content/early/2018/08/13/390112.full.pdf"
         authors: Shamir, I., Tomer, O., Baratz, Z., Tsarfaty, G., Faraggi, M., Horowitz, A., & Assaf, Y.
-        conference: bioRxiv, 2018
+        conference: Brain Structure and Function, 224(4), 1457-1467.
       - title: "In vivo measurements of lamination patterns in the human cortex"
         link: "https://doi.org/10.1002/hbm.25821"
         authors: Tomer, O., Barazany, D., Baratz, Z., Tsarfaty, G., & Assaf, Y.
-        conference: Human Brain Mapping, 1 – 8
+        conference: Human Brain Mapping, 1 – 8.
 
 skills:
     title: Skills &amp; Proficiency
