@@ -136,7 +136,6 @@ projects:
       - title: The Labbing Project
         link: "https://www.github.com/TheLabbingProject"
         tagline: "Improving lab operations and research management."
-
       - title: Open DICOM
         link: "https://www.github.com/open-dicom"
         tagline: "Collaborating to improve DICOM management tools across all languages and platforms."
@@ -162,7 +161,7 @@ volunteering:
         time: 2017 - 2018
         details: Counseling and general help.
       - role: Private Tutor
-        institution: "Push" Foundation
+        institution: P.U.S.H Foundation
         time: 2010 - 2011
         details: Taught English and Math at Ort Singalovsky High-School.
       - role: Emergency Medical Technician
