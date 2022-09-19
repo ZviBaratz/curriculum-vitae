@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: zvibaratz@mail.tau.ac.il
-    phone: 972 544 237759
+    phone: +972 544 237759
     # website: blog.webjeda.com #do not add http://
     linkedin: baratzz
     # xing: alandoe
@@ -32,7 +32,7 @@ sidebar:
         level: Native
 
       - idiom: English
-        level: Fluent
+        level: Native
 
       - idiom: German
         level: Basic
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        I am a computational neuroscience researcher with a passion for
+        I am a computational neuroscientist with a passion for
         open-source software, Python programming, and open science.
 
 education:
@@ -71,11 +71,9 @@ education:
         Received full four-year scholarship from the Adi Lautman
         Interdisciplinary Program for Outstanding Students. During the first
         two years completed a wide variety of courses in a number of
-        faculties, ranging from ‘Anatomy’ in Medicine to ‘Meditation and
-        Education: Theory, Research and Practice’ in Education. In the last
-        two years completed an M.Sc. thesis studying cortical layers
-        distribution in the general population using inversion-recovery MRI
-        and graduated with honors (final grade of 94.75).
+        faculties, and in the last two years worked on an M.Sc. thesis
+        studying cortical layers distribution in the general population using
+        inversion-recovery MRI. Graduated with honors (final grade of 94.75).
 
     - degree: High School Diploma
       university: Ironi Daled High School
