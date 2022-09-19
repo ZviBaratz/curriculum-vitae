@@ -1,54 +1,43 @@
 {% assign volunteering = site.data.data.volunteering %}
 {% if volunteering %}
-  {% if site.data.data.sidebar.volunteering %}
-  <div class="volunteering-container container-block">
+<section class="section volunteering-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-refresh fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ volunteering.title }}
+  </h2>
 
-    <h2 class="container-block-title">
-        Volunteering
-    </h2>
+  {% for entry in volunteering.items %}
+  <div class="item">
 
-    {% for entry in volunteering %}
-    <div class="item">
-      <h4 class="role">{{ entry.role }}</h4>
-      <h5 class="institution">{{ entry.institution }}</h5>
-      <div class="time">{{ entry.time }}</div>
-    </div><!--//item-->
-    {% endfor %}
+    <div class="meta">
 
-  </div><!--//volunteering-container-->
-  {% else %}
-  <section class="section volunteerings-section">
+      <div class="upper-row">
+        <h3 class="volunteering-role">
+            {{ entry.role }}
+        </h3>
+        <div class="time">
+            {{ entry.time }}
+        </div>
+      </div><!--//upper-row-->
 
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-refresh fa-stack-1x fa-inverse"></i>
-      </span>
-      Volunteering
-    </h2>
+      <div class="volunteering-institution">
+        {{ entry.institution }}
+    </div>
 
-    {% for entry in volunteering %}
-    <div class="item">
+    </div><!--//meta-->
 
-      <div class="meta">
+    {% if entry.details %}
+    <div class="details">
+      {{ entry.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
 
-        <div class="upper-row">
-          <h3 class="role">{{ entry.role }}</h3>
-          <div class="time">{{ entry.time }}</div>
-        </div><!--//upper-row-->
+  </div><!--//item-->
+  {% endfor %}
 
-        <div class="institution">{{ entry.institution }}</div>
-      </div><!--//meta-->
-
-      {% if entry.details %}
-      <div class="details">
-        {{ entry.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
-
-    </div><!--//item-->
-    {% endfor %}
-
-  </section><!--//section-->
-  {% endif %}
+</section><!--//section-->
 {% endif %}
+

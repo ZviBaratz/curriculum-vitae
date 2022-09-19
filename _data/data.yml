@@ -155,17 +155,19 @@ publications:
         conference: Human Brain Mapping, 1 – 8.
 
 volunteering:
-    - role: Youth Counsellor
-      institution: Halev 24/7
-      time: 2017 - 2018
-      details: Counseling and general help.
-    - role: Private Tutor
-      institution: "Push" Foundation
-      time: 2010 - 2011
-      details: Taught English and Math at Ort Singalovsky High-School.
-    - role: Emergency Medical Technician
-      institution: Magen David Adom
-      time: 2005 - 2006
+    title: Volunteering
+    items:
+      - role: Youth Counsellor
+        institution: Halev 24/7
+        time: 2017 - 2018
+        details: Counseling and general help.
+      - role: Private Tutor
+        institution: "Push" Foundation
+        time: 2010 - 2011
+        details: Taught English and Math at Ort Singalovsky High-School.
+      - role: Emergency Medical Technician
+        institution: Magen David Adom
+        time: 2005 - 2006
 
 skills:
     title: Skills &amp; Proficiency
