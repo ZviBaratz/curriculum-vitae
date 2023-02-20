@@ -59,10 +59,10 @@ career-profile:
 education:
     - degree: PhD in Neuroscience
       university: Tel Aviv University
-      time: 2017 - Present
+      time: 2017 - 2023
       details: |
-        Exploring the ability to predict and characterize subject attributes
-        using MRI-derived parameters.
+        Predicting Individual Variability From Anatomical Magnetic Resonance
+        Imaging.
 
     - degree: MSc in Neuroscience
       university: Tel Aviv University
