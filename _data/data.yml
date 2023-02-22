@@ -87,6 +87,12 @@ education:
 experiences:
     title: Job Experience
     items:
+        - role: Data Scientist
+          time: 2022 - Present
+          company: Spotitearly
+          details: |
+            Building the technological infrastructure for canine-based early
+            detection of multiple types of cancer.
         - role: Python for Neuroscience Graduate Teaching Assistant
           time: 2019 - Present
           company: Sagol School for Neuroscience, Tel Aviv University
