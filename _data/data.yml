@@ -144,6 +144,18 @@ publications:
     title: Publications
     # intro: |
     papers:
+      - title: "Predicting Individual Traits From T1-weighted Anatomical MRI Using the Xception CNN Architecture"
+        link: "https://doi.org/10.1101/2023.02.20.529226"
+        authors: Baratz, Z., & Assaf, Y.
+        conference: bioRxiv        
+      - title: "Optimizing FreeSurfer’s Surface Reconstruction Parameters for Anatomical Feature Estimation"
+        link: "https://doi.org/10.1101/2023.01.02.522457"
+        authors: Baratz, Z., & Assaf, Y.
+        conference: bioRxiv    
+      - title: "The Labbing Project: A database management application for neuroimaging research"
+        link: "https://doi.org/10.1101/2023.01.02.522426"
+        authors: Baratz, Z., & Assaf, Y.
+        conference: bioRxiv
       - title: "A Framework for Cortical Layer Composition Analysis using Low Resolution T1 MRI Images"
         link: "https://www.biorxiv.org/content/early/2018/08/13/390112.full.pdf"
         authors: Shamir, I., Tomer, O., Baratz, Z., Tsarfaty, G., Faraggi, M., Horowitz, A., & Assaf, Y.
