@@ -9,7 +9,6 @@ sidebar:
     # Profile information
     name: Zvi Baratz
     tagline: Lead Software Engineer & Neuroscience Researcher
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: z.baratz@gmail.com
@@ -82,13 +81,6 @@ education:
         M.Sc. thesis on cortical layer distribution analysis using
         inversion-recovery MRI.
 
-    - degree: High School Diploma
-      university: Ironi Daled High School
-      time: 2003 - 2008
-      details: |
-        Majored in physics and biology. Graduated with honors (95+ average).
-        Participated in international school delegations to Spain, Singapore,
-        Poland and Germany.
 
 experiences:
     title: Professional Experience
@@ -104,6 +96,24 @@ experiences:
             operations. Built scalable solutions using Django/React stack with
             real-time WebSocket communication (JSON-RPC), automated CI/CD pipelines,
             and cloud infrastructure management.
+
+        - role: Senior Software Engineer
+          time: February 2024 - April 2025
+          company: Quantivly
+          details: |
+            Advanced to senior role contributing to core architecture decisions and
+            technical design of Quantivly's radiology data intelligence platform.
+            Collaborated on system design patterns and mentored junior developers
+            while continuing hands-on development of the digital twin infrastructure.
+
+        - role: Software Engineer
+          time: April 2023 - February 2024
+          company: Quantivly
+          details: |
+            Joined Quantivly to contribute to the architecture, design, and development
+            of the digital twin of radiology platform. Built foundational understanding
+            of healthcare data systems and contributed to early development of data
+            intelligence products and core platform features.
 
         - role: Graduate Teaching Assistant - Python for Neuroscience
           time: 2019 - 2023
@@ -135,15 +145,6 @@ experiences:
             Guided undergraduate and graduate students through hands-on
             neuroanatomy laboratory sessions and practical learning experiences.
 
-        - role: Reconnaissance Satellite Operator
-          time: 2009 - 2013
-          company: Israeli Defense Forces
-          details: |
-            Operated Israeli military electro-optical satellites during four-year
-            intelligence corps service. Led research and technical teams in
-            collaboration with Israeli Aerospace Industries (IAI). Completed
-            intensive 5-month qualification course and advanced training.
-            Received unit excellence award on Israel's Independence Day 2011.
 
 projects:
     title: Open Source Projects
