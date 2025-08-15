@@ -8,26 +8,16 @@ sidebar:
 
     # Profile information
     name: Zvi Baratz
-    tagline: Researcher and Developer
+    tagline: Lead Software Engineer & Neuroscience Researcher
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-<<<<<<< HEAD
-    email: zvibaratz@mail.tau.ac.il
+    email: z.baratz@gmail.com
     phone: 972 544 237759
     # website: blog.webjeda.com #do not add http://
     linkedin: baratzz
     # xing: alandoe
     github: ZviBaratz
-=======
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
->>>>>>> b515de8368ac1846ce5eee91113c5ecf3331c58d
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -63,95 +53,111 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        I am a computational neuroscience researcher with a passion for
-        open-source software, Python programming, and open science.
+        Lead Software Engineer with a PhD in Neuroscience, currently spearheading
+        healthcare technology development at Quantivly. Proven track record of
+        managing remote development teams and architecting scalable platforms that
+        transform complex medical data into actionable insights. Deep expertise in
+        Python, Django, and full-stack development, combined with strong research
+        background in computational neuroscience and neuroimaging analysis.
+        Passionate about open-source software and bridging the gap between
+        cutting-edge research and practical industry applications.
 
 education:
     - degree: PhD in Neuroscience
       university: Tel Aviv University
-      time: 2017 - Present
+      time: 2017 - 2023
       details: |
-        Exploring the ability to predict and characterize subject attributes
-        using MRI-derived parameters.
+        Explored predictive modeling of subject attributes using MRI-derived
+        parameters. Specialized in computational neuroscience, neuroimaging
+        analysis, and machine learning applications in brain research.
 
     - degree: MSc in Neuroscience
       university: Tel Aviv University
       time: 2014 - 2017
       details: |
         Received full four-year scholarship from the Adi Lautman
-        Interdisciplinary Program for Outstanding Students. During the first
-        two years completed a wide variety of courses in a number of
-        faculties, ranging from ‘Anatomy’ in Medicine to ‘Meditation and
-        Education: Theory, Research and Practice’ in Education. In the last
-        two years completed an M.Sc. thesis studying cortical layers
-        distribution in the general population using inversion-recovery MRI
-        and graduated with honors (final grade of 94.75).
+        Interdisciplinary Program for Outstanding Students. Completed diverse
+        coursework across multiple faculties, from medical anatomy to
+        educational theory. Graduated with honors (94.75 final grade) with
+        M.Sc. thesis on cortical layer distribution analysis using
+        inversion-recovery MRI.
 
     - degree: High School Diploma
       university: Ironi Daled High School
       time: 2003 - 2008
       details: |
-        Majored in physics and biology.
-        Graduated with honors (matriculations average of over 95).
-        Took part in school delegations to Spain, Singapore, Poland and
-        Germany.
+        Majored in physics and biology. Graduated with honors (95+ average).
+        Participated in international school delegations to Spain, Singapore,
+        Poland and Germany.
 
 experiences:
-    title: Job Experience
+    title: Professional Experience
     items:
-        - role: Python for Neuroscience Graduate Teaching Assistant
-          time: 2019 - Present
+        - role: Lead Software Engineer
+          time: March 2025 - Present
+          company: Quantivly
+          details: |
+            Spearheading development of Quantivly Hub, a radiology data exploration
+            platform that enables healthcare organizations to extract actionable
+            insights from medical imaging data. Direct a distributed team of 5
+            engineers across full-stack development, system architecture, and DevOps
+            operations. Built scalable solutions using Django/React stack with
+            real-time WebSocket communication (JSON-RPC), automated CI/CD pipelines,
+            and cloud infrastructure management.
+
+        - role: Graduate Teaching Assistant - Python for Neuroscience
+          time: 2019 - 2023
           company: Sagol School for Neuroscience, Tel Aviv University
           details: |
-            Introduction to the Python programming language for
-            neuroscience students.
-        - role: Machine Learning for Neuroscience Teaching Assistant
-          time: 2019 - Present
+            Taught Python programming fundamentals to neuroscience graduate
+            students, focusing on data analysis, visualization, and research
+            applications.
+
+        - role: Graduate Teaching Assistant - Machine Learning for Neuroscience
+          time: 2019 - 2023
           company: Sagol School for Neuroscience, Tel Aviv University
           details: |
-            Introduction to neuroscience-oriented machine learning concepts
-            and tools.
+            Instructed graduate students in neuroscience-oriented machine learning
+            concepts, tools, and practical applications for brain data analysis.
+
         - role: Research Assistant
-          time: 2018 - 2018
-          company: "The lab of Dr. Pablo Blinder, Tel Aviv University"
+          time: 2018
+          company: "Dr. Pablo Blinder's Lab, Tel Aviv University"
           details: |
-            Improved Flow Image Correlation Spectroscopy (FLICS) analysis
-            implementation and built a simple app for running the analysis
-            and viewing the results.
+            Enhanced Flow Image Correlation Spectroscopy (FLICS) analysis
+            implementation and developed an intuitive application for running
+            analyses and visualizing results.
+
         - role: Neuroanatomy Laboratory Teaching Assistant
-          time: 2015 - 2020
+          time: 2015 - 2023
           company: Sagol School for Neuroscience, Tel Aviv University
           details: |
-            Neuroanatomy laboratory guide, teaching undergraduate and graduate
-            students.
+            Guided undergraduate and graduate students through hands-on
+            neuroanatomy laboratory sessions and practical learning experiences.
+
         - role: Reconnaissance Satellite Operator
           time: 2009 - 2013
           company: Israeli Defense Forces
           details: |
-            Operated Israeli military electro-optical satellites throughout a
-            four-year service in the intelligence corps, also took part in a
-            large number of projects and led both a research team and a
-            technical team working concomitantly with Israeli Aerospace
-            Industries (IAI). Completed a 5-month qualification course and
-            approximately 3 more months of advanced training within the unit.
-            Received the unit’s award for excellence on Israel’s Independence
-            Day 2011.
+            Operated Israeli military electro-optical satellites during four-year
+            intelligence corps service. Led research and technical teams in
+            collaboration with Israeli Aerospace Industries (IAI). Completed
+            intensive 5-month qualification course and advanced training.
+            Received unit excellence award on Israel's Independence Day 2011.
 
 projects:
-    title: Projects
+    title: Open Source Projects
     intro: >
-      Other than the projects listed below, which were created as part of
-      my research efforts, I have made a number of contributions to a
-      variety of open-source projects (please see my GitHub profile for
-      more information).
+      Key projects developed as part of research efforts and open-source
+      contributions. For additional contributions, see my GitHub profile.
     assignments:
       - title: The Labbing Project
         link: "https://www.github.com/TheLabbingProject"
-        tagline: "Improving lab operations and research management."
+        tagline: "Comprehensive platform for improving laboratory operations and research management workflows."
 
       - title: Open DICOM
         link: "https://www.github.com/open-dicom"
-        tagline: "Collaborating to improve DICOM management tools across all languages and platforms."
+        tagline: "Cross-platform collaboration to enhance DICOM medical imaging management tools and standards."
 
 publications:
     title: Publications
@@ -174,12 +180,33 @@ skills:
         level: 95%
 
       - name: Django
-        level: 80%
+        level: 90%
 
       - name: Git
         level: 80%
 
-      - name: Linux Administration
+      - name: Platform Architecture
+        level: 75%
+
+      - name: BASH Scripting
+        level: 75%
+
+      - name: Team Leadership
+        level: 70%
+
+      - name: CI/CD Pipeline Design
+        level: 70%
+
+      - name: Server Administration
+        level: 70%
+
+      - name: React
+        level: 65%
+
+      - name: RPC Systems
+        level: 60%
+
+      - name: WebSocket Systems
         level: 60%
 
       - name: Vue.js
