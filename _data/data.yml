@@ -89,25 +89,40 @@ experiences:
           time: March 2025 - Present
           company: Quantivly
           details: |
-            - Spearheading development of Quantivly Hub, a radiology data exploration platform that enables healthcare organizations to extract actionable insights from medical imaging data
-            - Direct a distributed team of 5 engineers across full-stack development, system architecture, and DevOps operations
-            - Built scalable solutions using Django/React stack with real-time WebSocket communication (JSON-RPC)
-            - Architected automated CI/CD pipelines and cloud infrastructure management systems
+            - Continue leading Quantivly Hub platform development with expanded team management responsibilities
+            - Manage distributed development team of 5 engineers across backend, frontend, and DevOps functions
+            - Oversee production deployment and scaling of the platform architecture
+            - Drive strategic development methodology improvements and project planning frameworks
+            - Balance hands-on technical contributions with leadership and organizational responsibilities
 
         - role: Senior Software Engineer
           time: February 2024 - April 2025
           company: Quantivly
           details: |
-            - Advanced to senior role contributing to core architecture decisions and technical design of Quantivly's radiology data intelligence platform
-            - Collaborated on system design patterns while continuing hands-on development of the product and internal tools
+            - Led development of the Quantivly Hub platform from initial design through implementation
+            - Implemented Django/React architecture with JSON-RPC over WebSocket communication for real-time data interaction
+            - Designed automated CI/CD workflows and infrastructure deployment processes
+            - Expanded technical expertise in Django, GraphQL, React, TypeScript, and security best practices
+            - Participated in team growth initiatives including interviewing, onboarding, and mentoring new engineers
+            - Transitioned to project management responsibilities while maintaining individual contributor work
 
         - role: Software Engineer
           time: April 2023 - February 2024
           company: Quantivly
           details: |
-            - Joined Quantivly to contribute to the architecture, design, and development of the digital twin of radiology platform
-            - Built foundational understanding of healthcare data systems and contributed to early development of data intelligence products
-            - Contributed to core platform features and early product development
+            - Contributed to architecture and development of radiology data intelligence platform
+            - Developed CLI tools for automating development workflows and deployment processes
+            - Improved stack documentation and development setup procedures
+            - Migrated company codebase from Bitbucket to GitHub, including workflow optimization
+
+        - role: Data Scientist
+          time: Oct 2022 - Apr 2023
+          company: SpotItEarly
+          details: |
+            - Set up ML pipeline for cancer prediction from breath samples
+            - Developed signal processing algorithms for volatile organic compound analysis
+            - Implemented machine learning models for early cancer detection
+            - Collaborated on data collection and validation processes
 
         - role: Graduate Teaching Assistant - Python for Neuroscience
           time: 2019 - 2023
