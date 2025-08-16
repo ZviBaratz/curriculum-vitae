@@ -53,8 +53,8 @@ career-profile:
     title: Career Profile
     summary: |
         Lead Software Engineer with a PhD in Neuroscience, currently spearheading
-        healthcare technology development at Quantivly. Proven track record of
-        managing remote development teams and architecting scalable platforms that
+        healthcare technology development at Quantivly. Experience managing
+        remote development teams and architecting scalable platforms that
         transform complex medical data into actionable insights. Deep expertise in
         Python, Django, and full-stack development, combined with strong research
         background in computational neuroscience and neuroimaging analysis.
@@ -89,31 +89,25 @@ experiences:
           time: March 2025 - Present
           company: Quantivly
           details: |
-            Spearheading development of Quantivly Hub, a radiology data exploration
-            platform that enables healthcare organizations to extract actionable
-            insights from medical imaging data. Direct a distributed team of 5
-            engineers across full-stack development, system architecture, and DevOps
-            operations. Built scalable solutions using Django/React stack with
-            real-time WebSocket communication (JSON-RPC), automated CI/CD pipelines,
-            and cloud infrastructure management.
+            - Spearheading development of Quantivly Hub, a radiology data exploration platform that enables healthcare organizations to extract actionable insights from medical imaging data
+            - Direct a distributed team of 5 engineers across full-stack development, system architecture, and DevOps operations
+            - Built scalable solutions using Django/React stack with real-time WebSocket communication (JSON-RPC)
+            - Architected automated CI/CD pipelines and cloud infrastructure management systems
 
         - role: Senior Software Engineer
           time: February 2024 - April 2025
           company: Quantivly
           details: |
-            Advanced to senior role contributing to core architecture decisions and
-            technical design of Quantivly's radiology data intelligence platform.
-            Collaborated on system design patterns while continuing hands-on
-            development of the product and internal tools.
+            - Advanced to senior role contributing to core architecture decisions and technical design of Quantivly's radiology data intelligence platform
+            - Collaborated on system design patterns while continuing hands-on development of the product and internal tools
 
         - role: Software Engineer
           time: April 2023 - February 2024
           company: Quantivly
           details: |
-            Joined Quantivly to contribute to the architecture, design, and development
-            of the digital twin of radiology platform. Built foundational understanding
-            of healthcare data systems and contributed to early development of data
-            intelligence products and core platform features.
+            - Joined Quantivly to contribute to the architecture, design, and development of the digital twin of radiology platform
+            - Built foundational understanding of healthcare data systems and contributed to early development of data intelligence products
+            - Contributed to core platform features and early product development
 
         - role: Graduate Teaching Assistant - Python for Neuroscience
           time: 2019 - 2023
