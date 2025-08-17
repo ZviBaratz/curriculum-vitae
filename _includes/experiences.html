@@ -9,27 +9,41 @@
     {{ experiences.title }}
   </h2>
 
-  {% for experience in experiences.items %}
-  <div class="item">
+  {% for organization in experiences.organizations %}
+  <div class="organization-group">
+    
+    <div class="organization-header">
+      <div class="organization-meta">
+        {% if organization.avatar %}
+        <img src="{{ site.baseurl }}/assets/images/organizations/{{ organization.avatar }}" alt="{{ organization.name }}" class="organization-avatar">
+        {% endif %}
+        <div class="organization-info">
+          <h3 class="organization-name">{{ organization.name }}</h3>
+          <div class="organization-time">{{ organization.time }}</div>
+        </div>
+      </div>
+    </div><!--//organization-header-->
 
-    <div class="meta">
+    <div class="organization-roles">
+      {% for role in organization.roles %}
+      <div class="role-item">
+        <div class="role-meta">
+          <div class="role-upper-row">
+            <h4 class="role-title">{{ role.role }}</h4>
+            <div class="role-time">{{ role.time }}</div>
+          </div><!--//role-upper-row-->
+        </div><!--//role-meta-->
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+        {% if role.details %}
+        <div class="role-details">
+          {{ role.details | markdownify }}
+        </div><!--//role-details-->
+        {% endif %}
+      </div><!--//role-item-->
+      {% endfor %}
+    </div><!--//organization-roles-->
 
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-
-  </div><!--//item-->
+  </div><!--//organization-group-->
   {% endfor %}
 
 </section><!--//section-->

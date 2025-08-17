@@ -84,75 +84,79 @@ education:
 
 experiences:
     title: Professional Experience
-    items:
-        - role: Lead Software Engineer
-          time: March 2025 - Present
-          company: Quantivly
-          details: |
-            - Continue leading Quantivly Hub platform development with expanded team management responsibilities
-            - Manage distributed development team of 5 engineers across backend, frontend, and DevOps functions
-            - Oversee production deployment and scaling of the platform architecture
-            - Drive strategic development methodology improvements and project planning frameworks
-            - Balance hands-on technical contributions with leadership and organizational responsibilities
+    organizations:
+        - name: Quantivly
+          time: April 2023 - Present
+          avatar: quantivly.png
+          roles:
+            - role: Lead Software Engineer
+              time: March 2025 - Present
+              details: |
+                - Continue leading Quantivly Hub platform development with expanded team management responsibilities
+                - Manage distributed development team of 5 engineers across backend, frontend, and DevOps functions
+                - Oversee production deployment and scaling of the platform architecture
+                - Drive strategic development methodology improvements and project planning frameworks
+                - Balance hands-on technical contributions with leadership and organizational responsibilities
 
-        - role: Senior Software Engineer
-          time: February 2024 - April 2025
-          company: Quantivly
-          details: |
-            - Led development of the Quantivly Hub platform from initial design through implementation
-            - Implemented Django/React architecture with JSON-RPC over WebSocket communication for real-time data interaction
-            - Designed automated CI/CD workflows and infrastructure deployment processes
-            - Expanded technical expertise in Django, GraphQL, React, TypeScript, and security best practices
-            - Participated in team growth initiatives including interviewing, onboarding, and mentoring new engineers
-            - Transitioned to project management responsibilities while maintaining individual contributor work
+            - role: Senior Software Engineer
+              time: February 2024 - April 2025
+              details: |
+                - Led development of the Quantivly Hub platform from initial design through implementation
+                - Implemented Django/React architecture with JSON-RPC over WebSocket communication for real-time data interaction
+                - Designed automated CI/CD workflows and infrastructure deployment processes
+                - Expanded technical expertise in Django, GraphQL, React, TypeScript, and security best practices
+                - Participated in team growth initiatives including interviewing, onboarding, and mentoring new engineers
+                - Transitioned to project management responsibilities while maintaining individual contributor work
 
-        - role: Software Engineer
-          time: April 2023 - February 2024
-          company: Quantivly
-          details: |
-            - Contributed to architecture and development of radiology data intelligence platform
-            - Developed CLI tools for automating development workflows and deployment processes
-            - Improved stack documentation and development setup procedures
-            - Migrated company codebase from Bitbucket to GitHub, including workflow optimization
+            - role: Software Engineer
+              time: April 2023 - February 2024
+              details: |
+                - Contributed to architecture and development of radiology data intelligence platform
+                - Developed CLI tools for automating development workflows and deployment processes
+                - Improved stack documentation and development setup procedures
+                - Migrated company codebase from Bitbucket to GitHub, including workflow optimization
 
-        - role: Data Scientist
+        - name: SpotItEarly
           time: Oct 2022 - Apr 2023
-          company: SpotItEarly
-          details: |
-            - Set up ML pipeline for cancer prediction from breath samples
-            - Developed signal processing algorithms for volatile organic compound analysis
-            - Implemented machine learning models for early cancer detection
-            - Collaborated on data collection and validation processes
+          avatar: spotitearly.png
+          roles:
+            - role: Data Scientist
+              time: Oct 2022 - Apr 2023
+              details: |
+                - Collaborated on data collection and validation processes
+                - Developed signal processing algorithms for early cancer detection
+                - Created a robust data pipeline for processing and analyzing experimental data
+                - Generated informative reports and visualizations to support research findings
 
-        - role: Graduate Teaching Assistant - Python for Neuroscience
-          time: 2019 - 2023
-          company: Sagol School for Neuroscience, Tel Aviv University
-          details: |
-            Taught Python programming fundamentals to neuroscience graduate
-            students, focusing on data analysis, visualization, and research
-            applications.
-
-        - role: Graduate Teaching Assistant - Machine Learning for Neuroscience
-          time: 2019 - 2023
-          company: Sagol School for Neuroscience, Tel Aviv University
-          details: |
-            Instructed graduate students in neuroscience-oriented machine learning
-            concepts, tools, and practical applications for brain data analysis.
-
-        - role: Research Assistant
-          time: 2018
-          company: "Dr. Pablo Blinder's Lab, Tel Aviv University"
-          details: |
-            Enhanced Flow Image Correlation Spectroscopy (FLICS) analysis
-            implementation and developed an intuitive application for running
-            analyses and visualizing results.
-
-        - role: Neuroanatomy Laboratory Teaching Assistant
+        - name: Tel Aviv University
           time: 2015 - 2023
-          company: Sagol School for Neuroscience, Tel Aviv University
-          details: |
-            Guided undergraduate and graduate students through hands-on
-            neuroanatomy laboratory sessions and practical learning experiences.
+          avatar: tau.png
+          roles:
+            - role: Graduate Teaching Assistant - Python for Neuroscience
+              time: 2019 - 2023
+              details: |
+                Taught Python programming fundamentals to neuroscience graduate
+                students, focusing on data analysis, visualization, and research
+                applications.
+
+            - role: Graduate Teaching Assistant - Machine Learning for Neuroscience
+              time: 2019 - 2023
+              details: |
+                Instructed graduate students in neuroscience-oriented machine learning
+                concepts, tools, and practical applications for brain data analysis.
+
+            - role: Research Assistant
+              time: 2018
+              details: |
+                Enhanced Flow Image Correlation Spectroscopy (FLICS) analysis
+                implementation and developed an intuitive application for running
+                analyses and visualizing results.
+
+            - role: Neuroanatomy Laboratory Teaching Assistant
+              time: 2015 - 2023
+              details: |
+                Guided undergraduate and graduate students through hands-on
+                neuroanatomy laboratory sessions and practical learning experiences.
 
 
 projects:
@@ -161,26 +165,38 @@ projects:
       Key projects developed as part of research efforts and open-source
       contributions. For additional contributions, see my GitHub profile.
     assignments:
-      - title: The Labbing Project
-        link: "https://www.github.com/TheLabbingProject"
-        tagline: "Comprehensive platform for improving laboratory operations and research management workflows."
-
       - title: Open DICOM
         link: "https://www.github.com/open-dicom"
         tagline: "Cross-platform collaboration to enhance DICOM medical imaging management tools and standards."
+            
+      - title: The Labbing Project
+        link: "https://www.github.com/TheLabbingProject"
+        tagline: "Comprehensive platform for improving laboratory operations and research management workflows."
 
 publications:
     title: Publications
     # intro: |
     papers:
-      - title: "A Framework for Cortical Layer Composition Analysis using Low Resolution T1 MRI Images"
-        link: "https://www.biorxiv.org/content/early/2018/08/13/390112.full.pdf"
+      - title: "A framework for cortical laminar composition analysis using low-resolution T1 MRI images"
+        link: "https://doi.org/10.1007/s00429-019-01896-7"
         authors: Shamir, I., Tomer, O., Baratz, Z., Tsarfaty, G., Faraggi, M., Horowitz, A., & Assaf, Y.
-        conference: bioRxiv, 2018
+        conference: Brain Structure and Function 224 (4), 1457-1467, 2019
       - title: "In vivo measurements of lamination patterns in the human cortex"
         link: "https://doi.org/10.1002/hbm.25821"
         authors: Tomer, O., Barazany, D., Baratz, Z., Tsarfaty, G., & Assaf, Y.
-        conference: Human Brain Mapping, 1 – 8
+        conference: Human Brain Mapping 43 (9), 2861-2868, 2022
+      - title: "Predicting Individual Traits From T1-weighted Anatomical MRI Using the Xception CNN Architecture"
+        link: "https://doi.org/10.1101/2023.02.20.529226"
+        authors: Baratz, Z., & Assaf, Y.
+        conference: bioRxiv, 2023
+      - title: "The Labbing Project: A database management application for neuroimaging research"
+        link: "https://doi.org/10.1101/2023.01.02.522426"
+        authors: Baratz, Z., & Assaf, Y.
+        conference: bioRxiv, 2023
+      - title: "Optimizing FreeSurfer's Surface Reconstruction Parameters for Anatomical Feature Estimation"
+        link: "https://doi.org/10.1101/2023.01.02.522457"
+        authors: Baratz, Z., & Assaf, Y.
+        conference: bioRxiv, 2023
 
 skills:
     title: Skills &amp; Proficiency
@@ -195,11 +211,20 @@ skills:
       - name: Git
         level: 80%
 
+      - name: Docker
+        level: 80%
+
+      - name: Scientific Computing
+        level: 80%
+
       - name: Platform Architecture
         level: 75%
 
-      - name: BASH Scripting
+      - name: Linux/Unix & Shell Scripting
         level: 75%
+
+      - name: GraphQL
+        level: 70%
 
       - name: Team Leadership
         level: 70%
@@ -210,8 +235,17 @@ skills:
       - name: Server Administration
         level: 70%
 
+      - name: Data Analysis
+        level: 70%
+
       - name: React
         level: 65%
+
+      - name: Machine Learning
+        level: 65%
+
+      - name: TypeScript
+        level: 60%
 
       - name: RPC Systems
         level: 60%
@@ -219,17 +253,11 @@ skills:
       - name: WebSocket Systems
         level: 60%
 
-      - name: Vue.js
-        level: 45%
-
       - name: Javascript, HTML5 & CSS
-        level: 40%
-
-      - name: MATLAB
-        level: 30%
+        level: 55%
 
       - name: PostgreSQL
-        level: 20%
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
