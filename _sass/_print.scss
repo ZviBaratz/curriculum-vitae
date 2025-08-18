@@ -42,4 +42,15 @@
      color: #ffffff !important;
    }
 
+   // Hide URL display in parentheses for all links in print
+   a:after {
+     content: "" !important;
+   }
+
+   // Ensure links maintain readable styling in print
+   a {
+     color: black !important;
+     text-decoration: none !important;
+   }
+
 }
