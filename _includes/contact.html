@@ -49,6 +49,15 @@
     </li>
     {% endif %}
 
+    {% comment %}
+      The bundled Font Awesome (5.1.1) has no ORCID brand icon, so this entry uses the generic id-badge icon.
+    {% endcomment %}
+    {% if sidebar.orcid %}
+    <li class="orcid"><i class="fas fa-id-badge"></i>
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">{{ sidebar.orcid }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
       <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
