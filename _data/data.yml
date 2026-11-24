@@ -54,7 +54,7 @@ career-profile:
     title: Career Profile
     summary: |
         I am a software engineer with a research background. For my PhD I built
-        the data platform my lab managed its MRI studies with, and trained
+        the data platform my lab ran its MRI studies on, and trained
         deep-learning models on thousands of scans. Since 2023 I have been
         building a radiology operations platform at Quantivly. I work mostly in
         Python on Linux, across backend, data and infrastructure, and I am at my
@@ -69,17 +69,16 @@ education:
         Thesis: [*Predicting Individual Variability From Anatomical Magnetic
         Resonance Imaging*](https://doi.org/10.5281/zenodo.24492985), supervised
         by Prof. Yaniv Assaf. Modeled sex, age and personality traits from
-        structural MRI: trained and tuned convolutional networks (Xception, with
-        transfer learning) on 4,049 scans from 1,594 participants, and measured
-        how preprocessing choices change the derived features and the models
-        built on them.
+        structural MRI with convolutional networks (Xception, with transfer
+        learning) trained on 4,049 scans from 1,594 participants, and measured
+        how preprocessing choices change the results.
 
     - degree: MSc in Neuroscience
       university: Tel Aviv University
-      time: 2014 - 2017
+      time: 2013 - 2017
       details: |
-        Received full four-year scholarship from the Adi Lautman
-        Interdisciplinary Program for Outstanding Students. Completed diverse
+        Adi Lautman Interdisciplinary Program for Outstanding Students: a
+        four-year direct track to the MSc, on a full scholarship. Completed diverse
         coursework across multiple faculties, from medical anatomy to
         educational theory. Graduated with honors (94.75 final grade) with
         M.Sc. thesis on cortical layer distribution analysis using
@@ -98,15 +97,13 @@ experiences:
             - role: Principal Software Engineer
               time:
               details: |
-                *A healthcare company spun out of Boston Children's Hospital that builds operations software for
-                radiology and MRI. Remote from Israel. Joined as Software Engineer; Senior from February 2024, Lead
-                from February 2025, Principal from January 2026.*
+                *Operations software for radiology, spun out of Boston Children's Hospital. Remote from Israel.
+                Joined as Software Engineer; Senior from 2024, Lead from 2025, Principal from 2026.*
 
-                - Led the rebuild of Quantivly Hub, the web application customers use to work with the platform, from design to production: a Django backend, a React and TypeScript frontend, and real-time communication over WebSocket using JSON-RPC.
-                - Built AI code review into CI: a GitHub Actions workflow in which Claude reviews pull requests on request, investigates failing CI runs, and on re-review tracks which earlier findings were addressed. Hardened it against what real use turned up: timeouts on large changes, retries, invented version numbers.
-                - Own the engineering infrastructure: CI/CD pipelines, deployment tooling, and the team's shared development environment and command-line tools.
-                - Maintain the company's forks of two open-source RPC libraries ([channels-rpc](https://github.com/quantivly/channels-rpc), [fastapi-ws-rpc](https://github.com/quantivly/fastapi-ws-rpc)): moved both to JSON-RPC 2.0, hardened them (memory leaks, connection handling, input validation), and released version 1.0 of each.
-                - Interview and onboard engineers, oversee the work of other engineers, and take a large part in planning the engineering roadmap.
+                - Led the rebuild of Quantivly Hub, the web application customers use to work with the platform: a Django and GraphQL backend and a React and TypeScript frontend.
+                - Built the AI code review used across Quantivly's repositories: on request, Claude reviews a pull request against its linked issue and CI results and comments inline.
+                - Own the team's CI/CD pipelines, deployment tooling and development environment.
+                - Interview and onboard engineers, oversee others' work, and help plan the roadmap.
 
         - name: SpotItEarly
           time: Oct 2022 - Apr 2023
@@ -156,13 +153,11 @@ projects:
     title: Open Source Projects
     intro: >
       Open-source software from my research years and since; my work at
-      Quantivly is in private repositories. In 2020–2023 I also sent small
-      fixes, mostly to documentation and builds, to nipype, nilearn, nibabel,
-      pydicom and MRIQC, and helped set up NiPreps' nireports package.
+      Quantivly is in private repositories.
     assignments:
       - title: dicom_parser
         link: "https://github.com/open-dicom/dicom_parser"
-        tagline: "A Python library for reading DICOM headers, the metadata of medical images, built on pydicom. I wrote almost all of it (2020–2023)."
+        tagline: "A Python library I wrote during the PhD for reading DICOM headers, the metadata of medical images, built on pydicom (2020–2023)."
 
       - title: The Labbing Project
         link: "https://github.com/TheLabbingProject"
