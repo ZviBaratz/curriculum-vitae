@@ -92,13 +92,13 @@ experiences:
           time: April 2023 - Present
           avatar: quantivly.png
           roles:
-            # One entry for the whole tenure: the organization's dates above cover it, and the first line of the
+            # One entry for the whole tenure: the organization's dates above cover it, and the second line of the
             # details gives the title history, so the role itself carries no dates.
             - role: Principal Software Engineer
               time:
               details: |
-                *Operations software for radiology, spun out of Boston Children's Hospital. Remote from Israel.
-                Joined as Software Engineer; Senior from 2024, Lead from 2025, Principal from 2026.*
+                *Operations software for radiology, spun out of Boston Children's Hospital. Remote from Israel.*<br>
+                *Joined as Software Engineer; promoted to Senior in 2024, Lead in 2025 and Principal in 2026.*
 
                 - Led the rebuild of Quantivly Hub, the web application customers use to work with the platform: a Django and GraphQL backend and a React and TypeScript frontend.
                 - Built the AI code review used across Quantivly's repositories: on request, Claude reviews a pull request against its linked issue and CI results and comments inline.
