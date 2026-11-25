@@ -53,13 +53,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        I am a software engineer with a research background. For my PhD I built
-        the data platform my lab ran its MRI studies on, and trained
+        I am a software engineer with a research background, working mostly in
+        Python on Linux across backend, data and infrastructure. For my PhD I
+        built the data platform my lab ran its MRI studies on, and trained
         deep-learning models on thousands of scans. Since 2023 I have been
-        building a radiology operations platform at Quantivly. I work mostly in
-        Python on Linux, across backend, data and infrastructure, and I am at my
-        best taking a problem from the people who have it to a system they rely
-        on.
+        building a radiology operations platform at Quantivly. I am at my best
+        taking a problem from the people who have it to a system they rely on.
 
 education:
     - degree: PhD in Neuroscience
@@ -78,7 +77,7 @@ education:
       time: 2013 - 2017
       details: |
         Adi Lautman Interdisciplinary Program for Outstanding Students: a
-        four-year direct track to the MSc, on a full scholarship. Completed diverse
+        four-year direct track to an MSc, on a full scholarship. Completed diverse
         coursework across multiple faculties, from medical anatomy to
         educational theory. Graduated with honors (94.75 final grade) with
         M.Sc. thesis on cortical layer distribution analysis using
@@ -157,11 +156,11 @@ projects:
     assignments:
       - title: dicom_parser
         link: "https://github.com/open-dicom/dicom_parser"
-        tagline: "A Python library I wrote during the PhD for reading DICOM headers, the metadata of medical images, built on pydicom (2020–2023)."
+        tagline: "A Python library I wrote during my PhD for reading DICOM headers, the metadata of medical images, built on pydicom (2020–2023)."
 
       - title: The Labbing Project
         link: "https://github.com/TheLabbingProject"
-        tagline: "The Django applications I built during the PhD to manage a lab's MRI research data and run analysis pipelines on it (2018–2023). Now archived."
+        tagline: "The Django applications I built during my PhD to manage a lab's MRI research data and run analysis pipelines on it (2018–2023). Now archived."
 
       - title: csa_header
         link: "https://github.com/open-dicom/csa_header"
