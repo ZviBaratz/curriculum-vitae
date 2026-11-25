@@ -100,7 +100,7 @@ experiences:
                 *Operations software for radiology, spun out of Boston Children's Hospital. Remote from Israel.*<br>
                 *Joined as Software Engineer; promoted to Senior in 2024, Lead in 2025 and Principal in 2026.*
 
-                - Led the rebuild of Quantivly Hub, the web application customers use to work with the platform: a Django and GraphQL backend and a React and TypeScript frontend.
+                - Led development of Quantivly Hub from the ground up: the web application customers use, with a Django and GraphQL backend and a React and TypeScript frontend.
                 - Built the AI code review used across Quantivly's repositories: on request, Claude reviews a pull request against its linked issue and CI results and comments inline.
                 - Own the team's CI/CD pipelines, deployment tooling and development environment.
                 - Interview and onboard engineers, oversee others' work, and help plan the roadmap.
